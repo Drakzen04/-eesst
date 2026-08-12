@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SSPIT | Multiservices Techniques &amp; Industriels — Douala, Cameroun</title>
+<meta name="description" content="SSPIT — Maintenance Industrielle, Mécanique de Fabrication, Charpente Métallique, Rebobinage Industrielle, Froid &amp; Climatisation, Génie Civil et Télécom. Basée à Douala, Cameroun.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo-sspit.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#accueil" class="logo">
+      <img src="assets/logo-sspit.png" alt="Logo SSPIT">
+      <span class="logo-text">SSP<span>IT</span></span>
+    </a>
+    <nav class="nav-desktop">
+      <a href="#accueil" class="nav-link active">Accueil</a>
+      <a href="#apropos" class="nav-link">À propos</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#fondateur" class="nav-link">Fondateur</a>
+      <a href="#galerie" class="nav-link">Galerie</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary header-cta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>
+      Devis gratuit
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-inner">
+    <div class="mobile-top">
+      <a href="#accueil" class="logo">
+        <img src="assets/logo-sspit.png" alt="Logo SSPIT">
+        <span class="logo-text">SSP<span>IT</span></span>
+      </a>
+      <button class="mobile-close" id="mobileClose" aria-label="Fermer le menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="#accueil" class="mobile-link">Accueil</a>
+      <a href="#apropos" class="mobile-link">À propos</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#fondateur" class="mobile-link">Fondateur</a>
+      <a href="#galerie" class="mobile-link">Galerie</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </nav>
+    <a href="#contact" class="btn btn-primary btn-block mobile-cta">Demander un devis gratuit</a>
+  </div>
+</div>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="accueil">
+  <div class="hero-shape" aria-hidden="true"></div>
+  <div class="container hero-grid">
+    <div class="reveal" data-reveal>
+      <span class="hero-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+        Multiservices techniques &amp; industriels
+      </span>
+      <h1 class="hero-title">Sept métiers, <span class="accent">un seul</span> partenaire technique.</h1>
+      <p class="hero-sub">SSPIT accompagne les industriels, les entreprises et les particuliers de Douala et du Cameroun sur l'ensemble de leurs besoins techniques : maintenance, mécanique, structure, électromécanique, froid, génie civil et télécom.</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          Demander un devis
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#services" class="btn btn-outline">Voir nos services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-count="7">0</span><span class="stat-label">Domaines d'expertise</span></div>
+        <div class="stat"><span class="stat-num" data-count="98">0</span><span class="stat-label">% satisfaction visée</span></div>
+        <div class="stat"><span class="stat-num" data-count="24">0</span><span class="stat-label">Astreinte /7j</span></div>
+      </div>
+    </div>
+    <div class="hero-visual reveal" data-reveal>
+      <div class="hero-img-main">
+        <img src="assets/equipe-chantier.jpg" alt="Équipe technique SSPIT sur un chantier" loading="eager">
+      </div>
+      <div class="hero-float-badge">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M20 6 9 17l-5-5"/></svg></span>
+        <div><strong>Équipe qualifiée</strong><span>Sécurité &amp; normes de chantier</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TICKER ============ -->
+<div class="ticker">
+  <div class="ticker-track" id="tickerTrack">
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M14.7 6.3a5 5 0 0 0-6.6 6.6L3 18l3 3 5.1-5.1a5 5 0 0 0 6.6-6.6l-3.2 3.2-2.6-.6-.6-2.6 3.2-3.2Z"/></svg>Maintenance Industrielle</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg>Mécanique de Fabrication</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 21h18M4 21V8l8-5 8 5v13M9 21v-6h6v6M4 8l8 5 8-5"/></svg>Charpente Métallique</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 2a5 5 0 1 0 5 5"/><path d="M12 6a3 3 0 1 0 3 3"/><path d="M12 22a5 5 0 1 1-5-5"/><path d="M12 18a3 3 0 1 1-3-3"/></svg>Rebobinage Industrielle</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 2v20M4.9 6.9l14.2 10.2M19.1 6.9 4.9 17.1M2 12h20"/></svg>Froid et Climatisation</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 21h18M6 21V10l5-4v15M11 21V4l7 4v13M14 21v-5h4v5"/></svg>Génie Civil</span>
+    <span class="ticker-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 20v-6M12 14a4 4 0 1 0-4-4M12 14a4 4 0 1 1 4-4M5 6a7 7 0 0 0 0 8M19 6a7 7 0 0 1 0 8"/></svg>Télécom</span>
+  </div>
+</div>
+
+<!-- ============ A PROPOS ============ -->
+<section class="section" id="apropos">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal" data-reveal>
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20man%20welds%20a%20rice%20milling%20machine.jpg?width=800" alt="Technicien SSPIT en intervention" loading="lazy">
+      </div>
+      <div class="reveal" data-reveal>
+        <span class="eyebrow on-light">Qui sommes-nous</span>
+        <h2 class="section-head" style="margin-bottom:0;">Un guichet technique unique, pour des projets complexes.</h2>
+        <p style="color:var(--muted); margin-top:16px; font-size:1rem; max-width:560px;">SSPIT réunit sept corps de métiers complémentaires pour répondre à l'ensemble des besoins techniques des industries, des entreprises et des particuliers : structure, mécanique, électromécanique, fluides et télécommunications.</p>
+        <div class="about-cards">
+          <div class="about-card">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7h-9M14 17H5M17 3v8M7 13v8"/></svg></div>
+            <h3>Multiservices techniques</h3>
+            <p>Structure, mécanique, fluides et télécom — toute la chaîne technique sous un même toit.</p>
+          </div>
+          <div class="about-card">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+            <h3>Réactivité &amp; suivi</h3>
+            <p>Une équipe interne dédiée, du diagnostic à la remise en service.</p>
+          </div>
+          <div class="about-card">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Satisfaction client</h3>
+            <p>« Votre satisfaction est notre priorité » — une exigence appliquée sur chaque chantier.</p>
+          </div>
+        </div>
+        <div class="client-types">
+          <span class="client-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 21h20M4 21V8l7-4 7 4v13M9 9h1M14 9h1M9 13h1M14 13h1M9 17h1M14 17h1"/></svg>Industries</span>
+          <span class="client-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="14" rx="1"/><path d="M8 7V4h8v3"/></svg>Entreprises BTP</span>
+          <span class="client-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h20l-2 12H4L2 3zM4 15l-1 6h18l-1-6"/></svg>Commerces</span>
+          <span class="client-chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></svg>Particuliers</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services" style="background:var(--paper);">
+  <div class="container">
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow on-light" style="margin:0 auto;">Nos expertises</span>
+      <h2>Sept domaines, une seule adresse.</h2>
+      <p style="margin-left:auto;margin-right:auto;">Un accompagnement technique complet, du dépannage d'urgence aux grands travaux de structure et de télécommunication.</p>
+    </div>
+
+    <div class="services-grid">
+      <!-- 1 Maintenance -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">01</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20man%20welds%20a%20rice%20milling%20machine.jpg?width=700" alt="Maintenance Industrielle" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a5 5 0 0 0-6.6 6.6L3 18l3 3 5.1-5.1a5 5 0 0 0 6.6-6.6l-3.2 3.2-2.6-.6-.6-2.6 3.2-3.2Z"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Maintenance Industrielle</h3>
+          <p>Entretien préventif et curatif, dépannage d'urgence pour limiter vos arrêts de production.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 2 Mécanique -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">02</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Factory%20worker%20welding%20mesh.jpg?width=700" alt="Mécanique de Fabrication" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Mécanique de Fabrication</h3>
+          <p>Usinage, réalisation de pièces sur mesure et remise en état d'ensembles mécaniques.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 3 Charpente -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">03</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Construction%20of%20a%20pedestrian%20steel%20bridge%20-%20Complete%20View.jpg?width=700" alt="Charpente Métallique" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M4 21V8l8-5 8 5v13M9 21v-6h6v6M4 8l8 5 8-5"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Charpente Métallique</h3>
+          <p>Conception, fabrication et montage de structures et charpentes en acier.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 4 Rebobinage -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">04</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stator%20Winding%20of%20a%20BLDC%20Motor.jpg?width=700" alt="Rebobinage Industrielle" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a5 5 0 1 0 5 5"/><path d="M12 6a3 3 0 1 0 3 3"/><path d="M12 22a5 5 0 1 1-5-5"/><path d="M12 18a3 3 0 1 1-3-3"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Rebobinage Industrielle</h3>
+          <p>Rebobinage de moteurs et transformateurs, tests électriques et remise en service.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 5 Froid -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">05</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Air%20conditioning%20units%20in%20Singapore%20(9336).jpg?width=700" alt="Froid et Climatisation" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M4.9 6.9l14.2 10.2M19.1 6.9 4.9 17.1M2 12h20"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Froid et Climatisation</h3>
+          <p>Installation, entretien et dépannage de systèmes frigorifiques et de climatisation.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 6 Genie civil -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">06</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boom%20lift%20crane%20on%20construction%20site.jpg?width=700" alt="Génie Civil" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M6 21V10l5-4v15M11 21V4l7 4v13M14 21v-5h4v5"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Génie Civil</h3>
+          <p>Travaux de fondation, gros œuvre et aménagement de sites industriels.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+
+      <!-- 7 Telecom -->
+      <article class="svc-card reveal" data-reveal>
+        <div class="svc-photo">
+          <span class="svc-num">07</span>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Antenna%20Telecom%20Macomer%201.jpg?width=700" alt="Télécom" loading="lazy">
+          <span class="svc-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20v-6M12 14a4 4 0 1 0-4-4M12 14a4 4 0 1 1 4-4M5 6a7 7 0 0 0 0 8M19 6a7 7 0 0 1 0 8"/></svg></span>
+        </div>
+        <div class="svc-body">
+          <h3>Télécom</h3>
+          <p>Installation et maintenance de réseaux, fibre optique, antennes et systèmes de télécommunication.</p>
+          <a href="#contact" class="svc-link">Demander une intervention <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section why-band">
+  <div class="container">
+    <div class="section-head on-dark" style="margin-bottom:44px;">
+      <span class="eyebrow on-dark">Pourquoi SSPIT</span>
+      <h2 style="color:#fff;">Une équipe technique, un seul interlocuteur.</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item reveal" data-reveal>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4zM4 9h16M9 4v16"/></svg></div>
+        <h4>Guichet unique</h4>
+        <p>Sept corps de métiers réunis, pour éviter la multiplication des prestataires.</p>
+      </div>
+      <div class="why-item reveal" data-reveal>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2z"/></svg></div>
+        <h4>Réactivité terrain</h4>
+        <p>Une équipe mobile prête à intervenir rapidement sur votre site.</p>
+      </div>
+      <div class="why-item reveal" data-reveal>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 12 2 2 4-4M12 3l8 4v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V7z"/></svg></div>
+        <h4>Sécurité &amp; normes</h4>
+        <p>Interventions menées dans le respect des normes de sécurité en vigueur.</p>
+      </div>
+      <div class="why-item reveal" data-reveal>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+        <h4>Satisfaction client</h4>
+        <p>« Votre satisfaction est notre priorité » — une exigence à chaque chantier.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FONDATEUR ============ -->
+<section class="section" id="fondateur">
+  <div class="container">
+    <div class="founder-grid">
+      <div class="founder-photo-wrap reveal" data-reveal>
+        <div class="founder-photo">
+          <img src="assets/fondateur.jpg" alt="Fondateur de SSPIT" loading="lazy">
+        </div>
+        <div class="founder-tag">SSPIT<br>Fondateur</div>
+      </div>
+      <div class="reveal" data-reveal>
+        <span class="eyebrow on-light">Le mot du fondateur</span>
+        <span class="quote-mark">“</span>
+        <p class="founder-quote">Chaque intervention doit renforcer la confiance de nos clients : c'est cette exigence qui a donné naissance à SSPIT.</p>
+        <p class="founder-bio">Convaincu que la rigueur technique doit toujours s'accompagner d'un service humain irréprochable, le fondateur a construit SSPIT autour d'une conviction simple : réunir sous une même équipe l'ensemble des compétences techniques dont les industriels et les particuliers ont besoin, pour leur éviter de multiplier les prestataires. Cette vision guide aujourd'hui les sept pôles d'expertise de l'entreprise, de la maintenance industrielle au télécom.</p>
+        <p class="founder-name">Fondateur &amp; Directeur Général</p>
+        <span class="founder-role">SSPIT — Douala, Cameroun</span>
+        <div class="founder-note">
+          Note : indiquez-moi le nom et la biographie exacts du fondateur pour remplacer ce texte provisoire.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="section" id="galerie" style="background:var(--paper);">
+  <div class="container">
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow on-light" style="margin:0 auto;">Galerie</span>
+      <h2>Nos réalisations en images.</h2>
+      <p style="margin-left:auto;margin-right:auto;">Un aperçu de la diversité de nos interventions sur le terrain.</p>
+    </div>
+    <div class="gallery-grid reveal" data-reveal>
+      <div class="gallery-item tall">
+        <img src="assets/equipe-chantier.jpg" alt="Équipe SSPIT sur chantier">
+        <span class="gallery-caption"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Équipe SSPIT</span>
+      </div>
+      <div class="gallery-item">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/A%20Welder%20at%20work%20(9608466398).jpg?width=500" alt="Maintenance">
+        <span class="gallery-caption">Maintenance</span>
+      </div>
+      <div class="gallery-item wide">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Boom%20lift%20crane%20on%20construction%20site.jpg?width=800" alt="Génie civil">
+        <span class="gallery-caption">Génie civil</span>
+      </div>
+      <div class="gallery-item">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Stator%20Winding%20of%20a%20BLDC%20Motor.jpg?width=500" alt="Rebobinage">
+        <span class="gallery-caption">Rebobinage</span>
+      </div>
+      <div class="gallery-item">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Air%20conditioning%20units%20in%20Singapore%20(9336).jpg?width=500" alt="Climatisation">
+        <span class="gallery-caption">Climatisation</span>
+      </div>
+      <div class="gallery-item">
+        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Antenna%20Telecom%20Macomer%201.jpg?width=500" alt="Télécom">
+        <span class="gallery-caption">Télécom</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+      <span class="eyebrow on-light" style="margin:0 auto;">Notre méthode</span>
+      <h2>De votre appel à la remise en service.</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal" data-reveal><div class="idx">01</div><h4>Diagnostic</h4><p>Analyse technique de votre besoin, sur site ou à distance.</p></div>
+      <div class="process-step reveal" data-reveal><div class="idx">02</div><h4>Devis</h4><p>Proposition détaillée, délais et budget clarifiés avant intervention.</p></div>
+      <div class="process-step reveal" data-reveal><div class="idx">03</div><h4>Intervention</h4><p>Exécution par notre équipe technique, dans le respect des normes.</p></div>
+      <div class="process-step reveal" data-reveal><div class="idx">04</div><h4>Suivi</h4><p>Contrôle qualité et accompagnement après remise en service.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="cta-band reveal" data-reveal>
+      <span class="eyebrow on-dark" style="margin:0 auto 6px;">Un projet, une panne, un chantier ?</span>
+      <h2>Parlons de vos installations dès aujourd'hui.</h2>
+      <p>Contactez SSPIT pour un diagnostic ou un devis gratuit sur l'ensemble de nos services.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-primary">Demander un devis gratuit</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact" style="background:var(--paper);">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal" data-reveal>
+        <span class="eyebrow on-light">Contact</span>
+        <h2 class="section-head" style="margin-bottom:0;">Parlons de votre projet.</h2>
+        <p style="color:var(--muted); margin:16px 0 26px; max-width:480px;">Notre équipe est à votre écoute pour étudier vos besoins et vous proposer une solution sur mesure.</p>
+        <div class="contact-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><strong>WhatsApp / Tél.</strong><span>+237 675 864 792</span></div>
+        </div>
+        <div class="contact-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg></span>
+          <div><strong>WhatsApp / Tél.</strong><span>+237 655 914 465</span></div>
+        </div>
+        <div class="contact-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+          <div><strong>Adresse</strong><span>Douala, Cameroun</span></div>
+        </div>
+        <div class="contact-item">
+          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
+          <div><strong>Horaires</strong><span>Lun – Sam : 8h – 18h</span></div>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" data-reveal id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Nom complet</label>
+            <input type="text" id="name" name="name" required placeholder="Votre nom">
+          </div>
+          <div class="form-group">
+            <label for="email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" style="display:none"/><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg>Email</label>
+            <input type="email" id="email" name="email" required placeholder="votre@email.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a5 5 0 0 0-6.6 6.6L3 18l3 3 5.1-5.1a5 5 0 0 0 6.6-6.6l-3.2 3.2-2.6-.6-.6-2.6 3.2-3.2Z"/></svg>Service concerné</label>
+          <select id="service" name="service">
+            <option value="">Sélectionnez un service</option>
+            <option value="maintenance">Maintenance Industrielle</option>
+            <option value="mecanique">Mécanique de Fabrication</option>
+            <option value="charpente">Charpente Métallique</option>
+            <option value="rebobinage">Rebobinage Industrielle</option>
+            <option value="froid">Froid &amp; Climatisation</option>
+            <option value="genie">Génie Civil</option>
+            <option value="telecom">Télécom</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-whatsapp btn-block">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Envoyer via WhatsApp
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#accueil" class="logo">
+          <img src="assets/logo-sspit.png" alt="Logo SSPIT">
+          <span class="logo-text" style="color:#fff;">SSP<span>IT</span></span>
+        </a>
+        <p>Multiservices techniques et industriels : maintenance, mécanique, charpente, rebobinage, froid &amp; climatisation, génie civil et télécom.</p>
+        <p class="footer-slogan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 1 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>Votre satisfaction est notre priorité !</p>
+      </div>
+      <div class="footer-links">
+        <h5>Services</h5>
+        <a href="#services">Maintenance Industrielle</a>
+        <a href="#services">Mécanique de Fabrication</a>
+        <a href="#services">Charpente Métallique</a>
+        <a href="#services">Rebobinage Industrielle</a>
+        <a href="#services">Froid &amp; Climatisation</a>
+        <a href="#services">Génie Civil</a>
+        <a href="#services">Télécom</a>
+      </div>
+      <div class="footer-links">
+        <h5>Navigation</h5>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#fondateur">Fondateur</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>+237 675 864 792</p>
+        <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92z"/></svg>+237 655 914 465</p>
+        <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Douala, Cameroun</p>
+        <div class="social-links">
+          <a href="https://wa.me/237675864792" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-link"><svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+          <a href="#" aria-label="Facebook" class="social-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" aria-label="LinkedIn" class="social-link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M10 9h4v2a4 4 0 0 1 4-2 5 5 0 0 1 5 5v8h-4v-7a2 2 0 0 0-4 0v7h-4z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> SSPIT. Tous droits réservés.</span>
+      <span>Douala, Cameroun</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/237675864792" target="_blank" rel="noopener" class="wa-float" aria-label="Contacter sur WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<button class="to-top" id="toTop" aria-label="Retour en haut">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
