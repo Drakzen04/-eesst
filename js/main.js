@@ -129,6 +129,8 @@ const SERVICE_LABELS = {
   froid: 'Froid & Climatisation',
   genie: 'Génie Civil',
   telecom: 'Télécom',
+  fourniture: 'Fourniture de Matériels et Équipements',
+  agricole: 'Travaux Agricoles',
 };
 
 function initContactForm() {
