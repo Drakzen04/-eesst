@@ -532,3 +532,63 @@ svg{ display:block; }
 .founder-plaque img{ width:34px; height:34px; border-radius:8px; flex:none; }
 .founder-plaque strong{ display:block; font-size:.86rem; color:var(--ink); line-height:1.25; }
 .founder-plaque span{ font-size:.72rem; color:var(--blue-dark); font-weight:600; text-transform:uppercase; letter-spacing:.03em; }
+
+/* ================= FOUNDER — framed real photo (not cutout) ================= */
+.founder-cutout img.framed{
+  width:100%; border-radius:18px; object-fit:cover; aspect-ratio:3/4;
+  filter:drop-shadow(0 16px 24px rgba(0,0,0,.5));
+}
+
+/* ================= CLIENT ACCORDIONS ================= */
+.clients-list{ display:flex; flex-direction:column; gap:14px; }
+.client-card{
+  background:var(--paper-alt); border:1px solid var(--line); border-radius:var(--radius-l);
+  overflow:hidden; box-shadow:var(--shadow-s);
+}
+.client-card summary{
+  list-style:none; cursor:pointer; padding:20px 22px; display:flex; align-items:center; gap:16px;
+  justify-content:space-between;
+}
+.client-card summary::-webkit-details-marker{ display:none; }
+.client-head{ display:flex; align-items:center; gap:16px; }
+.client-ico{
+  width:48px; height:48px; border-radius:14px; background:var(--paper); color:var(--blue);
+  display:flex; align-items:center; justify-content:center; flex:none;
+}
+.client-ico svg{ width:23px; height:23px; }
+.client-title h3{ font-size:1.05rem; }
+.client-title span{ font-size:.82rem; color:var(--muted); }
+.client-chevron{ width:30px; height:30px; border-radius:50%; background:var(--paper); display:flex; align-items:center; justify-content:center; flex:none; transition:transform .3s var(--ease); }
+.client-chevron svg{ width:15px; height:15px; }
+.client-card[open] .client-chevron{ transform:rotate(180deg); }
+.client-body{ padding:0 22px 26px; border-top:1px solid var(--line); }
+.client-body p{ color:var(--muted); font-size:.92rem; margin:18px 0; }
+.client-body ul{ margin:14px 0; padding-left:0; }
+.client-body ul li{
+  font-size:.88rem; color:var(--ink); padding:8px 0 8px 22px; position:relative; border-bottom:1px dashed var(--line);
+}
+.client-body ul li::before{ content:''; position:absolute; left:0; top:15px; width:7px; height:7px; border-radius:50%; background:var(--blue); }
+.client-photos{ display:grid; grid-template-columns:repeat(2,1fr); gap:10px; margin-top:16px; }
+@media (min-width:600px){ .client-photos{ grid-template-columns:repeat(3,1fr); } }
+.client-photos .ph{ position:relative; border-radius:var(--radius-s); overflow:hidden; aspect-ratio:4/3; }
+.client-photos .ph img{ width:100%; height:100%; object-fit:cover; }
+.client-photos .ph span{
+  position:absolute; left:0; right:0; bottom:0; padding:6px 8px; font-size:.66rem; font-weight:600;
+  color:#fff; background:linear-gradient(0deg, rgba(16,24,32,.85), transparent);
+}
+
+/* ================= MATERIEL / LOGISTIQUE ================= */
+.equip-grid{ display:grid; gap:20px; grid-template-columns:1fr; }
+@media (min-width:640px){ .equip-grid{ grid-template-columns:1fr 1fr; } }
+@media (min-width:1000px){ .equip-grid{ grid-template-columns:repeat(3,1fr); } }
+.equip-card{
+  background:var(--paper-alt); border:1px solid var(--line); border-radius:var(--radius-l);
+  overflow:hidden; box-shadow:var(--shadow-s); transition:transform .3s var(--ease), box-shadow .3s var(--ease);
+}
+.equip-card:hover{ transform:translateY(-5px); box-shadow:var(--shadow-m); }
+.equip-photo{ aspect-ratio:4/3; overflow:hidden; background:var(--paper); }
+.equip-photo img{ width:100%; height:100%; object-fit:cover; }
+.equip-body{ padding:18px 20px; }
+.equip-tag{ font-family:'IBM Plex Mono',monospace; font-size:.66rem; color:var(--blue-dark); text-transform:uppercase; letter-spacing:.06em; font-weight:700; }
+.equip-body h4{ font-size:.98rem; margin:6px 0 4px; }
+.equip-body p{ font-size:.84rem; color:var(--muted); }
